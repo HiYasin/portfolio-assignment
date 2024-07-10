@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     /* box-sizing: border-box; */
-    font-family: "Azeret Mono", monospace;
+    font-family: "Azeret Mono";
 }
 
 
@@ -71,7 +71,7 @@ button a{
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
-    color: rgba(13, 19, 33, 1)
+    color: rgba(13, 19, 33, 1);
     margin-top: 24px;
 }
 
@@ -142,7 +142,7 @@ button a{
     padding: 48px;
     margin: 16px;
     display: flex;
-    justify-content: space-evenly;
+    gap: 50px;
     align-items: center;
     width: 946px;
 }
@@ -151,7 +151,7 @@ button a{
 }
 
 .motive-title{
-    color: rgba(13, 19, 33, 0.7)
+    color: rgba(13, 19, 33, 0.7);
     font-size: 24px;
     font-weight: 700;
     line-height: 36px;
@@ -181,4 +181,24 @@ button a{
     margin-top: 16px;
     background-color: white;
     cursor: pointer;
+}
+
+/* Inspiration section style */
+
+.inspiration{
+    width: 946px;
+    margin: 0 auto;
+}
+
+.inspiration-video-container{
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+}
+.inspiration-video-container iframe{
+    border-radius: 16px;
+
 }
