@@ -92,9 +92,9 @@ a{
 .development{
     box-sizing: border-box;
     margin: 80px auto;
-    padding: 50px;
+    padding: 80px;
     border-radius: 16px;
-    background: rgba(13, 19, 33, 0.03);
+    background: rgba(13, 19, 33, 0.02);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     max-width: 1140px;
 }
