@@ -91,8 +91,9 @@ a{
 /* development journey */
 
 .development{
-    margin: 75px auto;
-    padding: 100px;
+    box-sizing: border-box;
+    margin: 0px auto;
+    padding: 80px;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
     max-width: 1140px;
@@ -186,7 +187,7 @@ a{
 /* Inspiration section style */
 
 .inspiration{
-    width: 946px;
+    width: 1140px;
     margin: 0 auto;
 }
 
@@ -201,11 +202,65 @@ a{
 .inspiration-video-container iframe{
     border-radius: 16px;
 }
+/* Current target */
+
+.current-target{
+    width: 1140px;
+    margin: 100px auto;
+}
+.target-heading{
+    width: 852px;
+    margin: 0 auto;
+}
+.box-items{
+    display: flex;
+    gap: 24px;
+}
+
+.box-item{
+    border-radius: 16px;
+    padding: 40px;
+}
+
+.item1{
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.item2{
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.item3{
+    background: rgba(255, 223, 0, 0.05);
+}
 
 
-
-
+.box-item-img{
+    width: 56px;
+}
 /* Footer styles */
+.box-item h2{
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    text-align: left;
+    margin-top: 28px;
+}
+.box-item p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    margin: 24px 0px;
+}
+
+.box-item a{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+    text-decoration-line: underline;
+}
 
 #footer{
     border-radius: 16px;
