@@ -45,6 +45,7 @@ a{
     background-size: cover;
     /* background-repeat: no-repeat; */
     height: 652px;
+    /* margin-bottom: 80px; */
     /* max-width: 1550px; */
 
 }
@@ -91,10 +92,10 @@ a{
 
 .development{
     box-sizing: border-box;
-    margin: 80px auto;
+    margin: 75px auto;
     padding: 80px;
     border-radius: 16px;
-    background: rgba(13, 19, 33, 0.02);
+    background: rgba(13, 19, 33, 0.03);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     max-width: 1140px;
 }
@@ -128,7 +129,7 @@ a{
 
 .motive-item{
     border-radius: 16px;
-    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
     padding: 48px;
     margin: 16px;
     display: flex;
