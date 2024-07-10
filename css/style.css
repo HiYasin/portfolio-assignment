@@ -191,7 +191,7 @@ button a{
 }
 
 .inspiration-video-container{
-    border: 1px solid rgba(13, 19, 33, 0.2);
+    border:1px solid rgba(13, 19, 33, 0.2);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -200,5 +200,4 @@ button a{
 }
 .inspiration-video-container iframe{
     border-radius: 16px;
-
 }
