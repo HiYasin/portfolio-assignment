@@ -187,7 +187,7 @@ a{
 
 .inspiration{
     width: 1140px;
-    margin: 0 auto;
+    margin: 80pxJ auto;
 }
 
 .inspiration-video-container{
@@ -242,6 +242,7 @@ a{
 
 .support{
     position: relative;
+    box-sizing: border-box;
     width: 1140px;
     text-align: center;
     margin: 100px auto;
@@ -258,7 +259,7 @@ a{
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.5);
     z-index: 1;
 }
 
